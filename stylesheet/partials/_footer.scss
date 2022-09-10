@@ -1,0 +1,19 @@
+footer{
+    background-color: map-get($estilos, colorSecundario);
+    border-top: 6px solid map-get($estilos, colorTerciario);
+    .copyright {
+        color: map-get($estilos, colorPrimario);
+        margin-left: 10px;
+    }
+    .tresRedes {
+        display: flex;
+        justify-content: end;
+        .redes {
+            color: rgb(128, 128, 128);
+            margin-right: 20px;
+            &hover {
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}

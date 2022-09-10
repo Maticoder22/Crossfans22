@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 390px) and (orientation: portrait) {
+    #grillaDos {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header header header"
+        "section section section"
+        "h2 h2 h2"
+        "hileraImagenes hileraImagenes hileraImagenes"
+        "article article article"
+        "footer footer footer";
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 25px;
+    }
+    .logo {
+        width: 90px;
+    }
+    .cabecera {
+        font-size: 35px;
+    }
+    .enlaces {
+        font-size: 14px;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+    }
+    .tituloDos {
+        font-size: 30px;
+    }
+    .crossUno {
+    width: 350px;
+    margin-left: 10px;
+    }
+    .crossDos {
+    margin-left: 10px;
+    }  
+    .crossTres {
+    margin-left: 10px;
+    width: 350px;
+    }
+    #grilla {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header header"
+        "h2 h2"
+        "p p"
+        "aside aside"
+        "footer footer";}
+    p {
+            text-align: left;
+            line-height: normal;
+        }
+    .imagenPortada{
+        display: none;
+    }  
+}

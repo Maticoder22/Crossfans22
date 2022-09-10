@@ -1,0 +1,26 @@
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "h2 h2"
+    "p aside"
+    "footer footer";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto ;
+    column-gap: 15px;
+}
+header {
+    grid-area: header;
+}
+.filaDosGrilla {
+    grid-area: h2;
+}
+.imagenPortada {
+    grid-area: aside;
+}
+p {
+    grid-area: p;
+}
+footer {
+    grid-area: footer;
+} 

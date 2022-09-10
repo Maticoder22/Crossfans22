@@ -1,0 +1,11 @@
+@mixin menu ($textColor, $hoverColor) {
+    border-bottom: 03px solid rgb(29, 29, 29);
+                    font-size: 20px;
+                    color: $textColor;
+                    font-family: 'Cormorant SC', serif;
+                    text-decoration: none;
+                    &hover {
+                        color: $hoverColor;
+                        transform: scale(1);
+                    }
+}
