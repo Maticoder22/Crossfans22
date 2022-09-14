@@ -18,12 +18,13 @@
         .primerVideo {
             .atletasUno {
                 font-family: 'Cormorant SC', serif;
+                font-weight: bold;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                font-weight: bold;
-                text-align: center;
                 margin-left: 140px;
-                text-decoration: underline solid rgb(58, 57, 57) 3px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                text-decoration: underline solid rgb(0, 0, 0) 3px;
             }
             .videoAtletaUno {
                 margin-left: 140px;
@@ -34,12 +35,13 @@
         .segundoVideo {
             .atletasDos {
                 font-family: 'Cormorant SC', serif;
+                font-weight: bold;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                font-weight: bold;
-                text-align: center;
                 margin-left: 500px;
-                text-decoration: underline solid rgb(58, 57, 57) 3px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                text-decoration: underline solid rgb(0, 0, 0) 3px;
             }
             .videoAtletaDos {
                 margin-left: 500px;
@@ -54,12 +56,13 @@
         .tercerVideo {
             .atletasUno {
                 font-family: 'Cormorant SC', serif;
+                font-weight: bold;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                font-weight: bold;
-                text-align: center;
                 margin-left: 140px;
-                text-decoration: underline solid rgb(58, 57, 57) 3px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                text-decoration: underline solid rgb(0, 0, 0) 3px;
             }
             .videoAtletaUno {
                 margin-left: 140px;
@@ -70,12 +73,13 @@
         .cuartoVideo {
             .atletasDos {
                 font-family: 'Cormorant SC', serif;
+                font-weight: bold;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                font-weight: bold;
-                text-align: center;
                 margin-left: 500px;
-                text-decoration: underline solid rgb(58, 57, 57) 3px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                text-decoration: underline solid rgb(0, 0, 0) 3px;
             }
             .videoAtletaDos {
                 margin-left: 500px;
@@ -118,12 +122,13 @@ footer {
 } 
 .tituloDos {
     font-family: 'Cormorant SC', serif;
-    margin-top: 120px;
-    margin-bottom: 70px;
-    text-decoration: underline solid rgb(58, 57, 57) 3px;
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 60px;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline solid rgb(0, 0, 0) 3px;
+    text-transform: uppercase;
 }
 .hileraImagenes {
     .crossUno {
@@ -155,11 +160,13 @@ footer {
 }
 .articulos {
     font-family: 'Cormorant SC', serif;
-    text-decoration: underline solid rgb(58, 57, 57) 3px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline solid rgb(0, 0, 0) 3px;
     text-transform: uppercase;
     margin-bottom: 40px;
     margin-top: 40px;
-    font-size: xx-large;
+    color: rgb(0, 0, 0);
 }
 .remeras {
     border: 5px solid rgb(0, 0, 0);
@@ -183,8 +190,9 @@ footer {
     section {
         .tituloContacto {
             font-size: 40px;
-            text-transform: uppercase;
             font-family: 'Cormorant SC', serif;
+            text-transform: uppercase;
+            background-color: rgb(0, 0, 0);
             margin-top: 20px;
             margin-bottom: 150px;
             border-bottom: 6px solid rgb(29, 29, 29);
@@ -195,23 +203,25 @@ footer {
             .ingresoDatos {
                 margin-top: 150px;
                 margin-bottom: 100px;
+                color: rgb(0, 0, 0);
                 font-size: x-large;
-                text-decoration: underline solid rgb(58, 57, 57) 2px;
+                font-weight: bold;
+                text-decoration: underline solid rgb(0, 0, 0) 2px;
             }
             div {
                 label {
                     font-family: 'Cormorant SC', serif;
-                    text-decoration: underline solid rgb(58, 57, 57) 3px;
-                    font-weight: bolder;
+                    font-weight: bold;
+                    font-size: x-large;
+                    text-decoration: underline solid rgb(0, 0, 0) 3px;
                     margin-bottom: 10px;
                     margin-top: 20px;
-                    font-size: x-large;
                 }
                 input {
                     margin-bottom: 10px;
                     margin-top: 20px;
                     font-size: x-large;
-                    border: solid 3px rgb(29, 29, 29);
+                    border: solid 3px rgb(0, 0, 0);
                 }
             }
             .send {

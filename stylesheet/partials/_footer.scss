@@ -9,7 +9,8 @@ footer{
         display: flex;
         justify-content: end;
         .redes {
-            color: rgb(128, 128, 128);
+            color: rgb(0, 0, 0);
+            font-weight: bold;
             margin-right: 20px;
             &hover {
                 color: rgb(255, 255, 255);
