@@ -114,34 +114,15 @@
         text-transform: uppercase;
         text-align: center;
     }
-    .hileraImagenes {
-        .crossUno {
-            border: 5px solid rgb(0, 0, 0);
-            margin-left: 130px;
-            margin-bottom: 120px;
-            width: 500px;
-        }
-        .crossDos {
-            border: 5px solid rgb(0, 0, 0);
-            margin-left: 130px;
-            margin-bottom: 120px;
-            width: 300px;
-        }
+    .editIMG{
+        padding: 20px;
+    } .imagenGaleria{
+        height: 500px;
+        width: 100%;
+        object-fit: cover;        
+        border: 5px solid rgb(0, 0, 0);
     }
-    .hileraImagenesDos {
-        .crossUno {
-            border: 5px solid rgb(0, 0, 0);
-            margin-left: 130px;
-            margin-bottom: 120px;
-            width: 500px;
-        }
-        .crossTres {
-            border: 5px solid rgb(0, 0, 0);
-            margin-left: 130px;
-            margin-bottom: 120px;
-            width: 460px;
-        }
-    }
+    
 }
 .articulos {
     font-family: 'Cormorant SC', serif;

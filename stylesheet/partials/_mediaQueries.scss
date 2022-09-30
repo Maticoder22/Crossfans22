@@ -1,12 +1,4 @@
 @media screen and (max-width: 390px) and (orientation: portrait) {
-    #grillaDos{
-        .hileraImagenes{
-            .crossUno {
-                margin-left: 5px;
-                width: 10px;
-            }
-        }
-    }
     #grilla {
         grid-template-columns: 1fr;
         grid-template-areas: 

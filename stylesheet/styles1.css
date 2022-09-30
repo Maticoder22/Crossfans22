@@ -126,10 +126,6 @@ header .cabecera {
 }
 
 @media screen and (max-width: 390px) and (orientation: portrait) {
-  #grillaDos .hileraImagenes .crossUno {
-    margin-left: 5px;
-    width: 10px;
-  }
   #grilla {
     grid-template-columns: 1fr;
     grid-template-areas: "header header" "h2 h2" "p p" "aside aside" "footer footer";
@@ -387,29 +383,15 @@ header .cabecera {
   text-transform: uppercase;
   text-align: center;
 }
-#grillaDos .hileraImagenes .crossUno {
-  border: 5px solid rgb(0, 0, 0);
-  margin-left: 130px;
-  margin-bottom: 120px;
-  width: 500px;
+#grillaDos .editIMG {
+  padding: 20px;
 }
-#grillaDos .hileraImagenes .crossDos {
+#grillaDos .imagenGaleria {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border: 5px solid rgb(0, 0, 0);
-  margin-left: 130px;
-  margin-bottom: 120px;
-  width: 300px;
-}
-#grillaDos .hileraImagenesDos .crossUno {
-  border: 5px solid rgb(0, 0, 0);
-  margin-left: 130px;
-  margin-bottom: 120px;
-  width: 500px;
-}
-#grillaDos .hileraImagenesDos .crossTres {
-  border: 5px solid rgb(0, 0, 0);
-  margin-left: 130px;
-  margin-bottom: 120px;
-  width: 460px;
 }
 
 .articulos {
