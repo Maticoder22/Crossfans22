@@ -4,12 +4,14 @@ footer{
     .copyright {
         color: map-get($estilos, colorPrimario);
         margin-left: 10px;
+        background-color: map-get($estilos, colorSecundario);
     }
     .tresRedes {
         display: flex;
         justify-content: end;
         .redes {
             color: rgb(0, 0, 0);
+            background-color: rgb(243, 92, 4);
             font-weight: bold;
             margin-right: 20px;
             &hover {

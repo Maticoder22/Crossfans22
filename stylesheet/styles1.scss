@@ -1,4 +1,3 @@
-@import "./partials/mediaQueries";
 @import "./partials/mixins";
 @import "./partials/maps";
 @import "./partials/body";
@@ -9,6 +8,11 @@
 @import "./partials/p";
 @import "./partials/footer";
 @import "./partials/extends";
+@import "./partials/mediaQueries";
+* {
+    margin: 0;
+    padding: 0;
+}
 .columnaVideos {
     display: flex;
     flex-direction: column;
@@ -30,6 +34,8 @@
                 margin-left: 140px;
                 border: 5px solid rgb(0, 0, 0);
                 margin-bottom: 100px;
+                width: 560px;
+                height: 315px;
             }
         }
         .segundoVideo {
@@ -47,6 +53,8 @@
                 margin-left: 500px;
                 border: 5px solid rgb(0, 0, 0);
                 margin-bottom: 100px;
+                width: 560px;
+                height: 315px;
             }
         }
     }
@@ -68,6 +76,8 @@
                 margin-left: 140px;
                 border: 5px solid rgb(0, 0, 0);
                 margin-bottom: 100px;
+                width: 560px;
+                height: 315px;
             }
         }
         .cuartoVideo {
@@ -85,151 +95,183 @@
                 margin-left: 500px;
                 border: 5px solid rgb(0, 0, 0);
                 margin-bottom: 100px;
+                width: 560px;
+                height: 315px;
             }
         }
     }
     
 }
 #grillaDos {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "section section section"
-    ". h2 ."
-    "hileraImagenes hileraImagenes hileraImagenes"
-    "article article article"
-    "footer footer footer";
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-template-columns: auto auto auto;
-}
-header {
-    grid-area: header;
-}
-section {
-    grid-area: section;
-}
-h2 {
-    grid-area: h2;
-}
-.hileraImagenes {
-    grid-area: hileraImagenes;
-}
-article {
-    grid-area: article;
-}
-footer {
-    grid-area: footer;
-} 
-.tituloDos {
-    font-family: 'Cormorant SC', serif;
-    font-weight: bold;
-    font-size: 60px;
-    margin-top: 120px;
-    margin-bottom: 70px;
-    color: rgb(0, 0, 0);
-    text-decoration: underline solid rgb(0, 0, 0) 3px;
-    text-transform: uppercase;
-}
-.hileraImagenes {
-    .crossUno {
-        border: 5px solid rgb(0, 0, 0);
-        margin-left: 130px;
-        margin-bottom: 120px;
-        width: 500px;
+    .tituloDos {
+        font-family: 'Cormorant SC', serif;
+        font-weight: bold;
+        font-size: 60px;
+        margin-top: 120px;
+        margin-bottom: 70px;
+        color: rgb(0, 0, 0);
+        text-decoration: underline solid rgb(0, 0, 0) 3px;
+        text-transform: uppercase;
+        text-align: center;
     }
-    .crossDos {
-        border: 5px solid rgb(0, 0, 0);
-        margin-left: 130px;
-        margin-bottom: 120px;
-        width: 300px;
+    .hileraImagenes {
+        .crossUno {
+            border: 5px solid rgb(0, 0, 0);
+            margin-left: 130px;
+            margin-bottom: 120px;
+            width: 500px;
+        }
+        .crossDos {
+            border: 5px solid rgb(0, 0, 0);
+            margin-left: 130px;
+            margin-bottom: 120px;
+            width: 300px;
+        }
     }
-}
-.hileraImagenesDos {
-    .crossUno {
-        border: 5px solid rgb(0, 0, 0);
-        margin-left: 130px;
-        margin-bottom: 120px;
-        width: 500px;
-    }
-    .crossTres {
-        border: 5px solid rgb(0, 0, 0);
-        margin-left: 130px;
-        margin-bottom: 120px;
-        width: 460px;
+    .hileraImagenesDos {
+        .crossUno {
+            border: 5px solid rgb(0, 0, 0);
+            margin-left: 130px;
+            margin-bottom: 120px;
+            width: 500px;
+        }
+        .crossTres {
+            border: 5px solid rgb(0, 0, 0);
+            margin-left: 130px;
+            margin-bottom: 120px;
+            width: 460px;
+        }
     }
 }
 .articulos {
     font-family: 'Cormorant SC', serif;
-    font-size: xx-large;
-    font-weight: bold;
-    text-decoration: underline solid rgb(0, 0, 0) 3px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-top: 5px solid rgb(0, 0, 0);
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 40px;
     margin-top: 40px;
     color: rgb(0, 0, 0);
+    background-color: rgb(243, 92, 4);
 }
-.remeras {
-    border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 50px;
-    margin-left: 170px;
-    font-weight: bold;
-}
-.short {
-    border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 50px;
-    margin-left: 150px;
-    font-weight: bold;
-}
-.accesorios {
-    border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 100px;
-    margin-left: 100px;
-    font-weight: bold;
+.mainMerchandising {
+    .seccionRemeras {
+        .remerasUno {
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 50px;
+            margin-left: 170px;
+            font-weight: bold;
+            width: 340px;
+        }
+        .remerasDos {
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 50px;
+            margin-left: 170px;
+            font-weight: bold;
+            width: 440px;
+        }
+        .remerasTres {
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 50px;
+            margin-left: 170px;
+            font-weight: bold;
+            width: 470px;
+        }
+    }
+    .seccionShort {
+        .shortUno {
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 50px;
+            margin-left: 150px;
+            font-weight: bold;
+            width: 450px;
+        }
+        .shortDos {
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 50px;
+            margin-left: 150px;
+            font-weight: bold;
+            width: 400px;
+        }
+    }
+    .seccionAccesorio {
+        .accesorios {
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 100px;
+            margin-left: 100px;
+            font-weight: bold;
+            width: 500px;
+        }
+    }
 }
 .mainContacto {
     section {
         .tituloContacto {
             font-size: 40px;
             font-family: 'Cormorant SC', serif;
+            font-weight: bolder;
             text-transform: uppercase;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(29, 29, 29);
             margin-top: 20px;
             margin-bottom: 150px;
-            border-bottom: 6px solid rgb(29, 29, 29);
+            border-bottom: 6px solid rgb(0, 0, 0);
         }
     }
     form {
         fieldset {
-            .ingresoDatos {
-                margin-top: 150px;
-                margin-bottom: 100px;
-                color: rgb(0, 0, 0);
-                font-size: x-large;
-                font-weight: bold;
-                text-decoration: underline solid rgb(0, 0, 0) 2px;
-            }
-            div {
-                label {
+            .formulario {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3 {
+                    text-align: center;
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(29, 29, 29);
+                    font-weight: 500;
                     font-family: 'Cormorant SC', serif;
-                    font-weight: bold;
-                    font-size: x-large;
-                    text-decoration: underline solid rgb(0, 0, 0) 3px;
-                    margin-bottom: 10px;
-                    margin-top: 20px;
+                    border-bottom: 6px solid rgb(0, 0, 0);
+                    margin-bottom: 160px;
                 }
-                input {
-                    margin-bottom: 10px;
-                    margin-top: 20px;
+                .ingresoDatos {
+                    margin-top: 150px;
+                    margin-bottom: 100px;
+                    color: rgb(0, 0, 0);
+                    background-color: rgb(243, 92, 4);
+                    font-size: xx-large;
+                    font-weight: 900;
+                    font-family: 'Cormorant SC', serif;
+                    text-decoration: underline solid rgb(0, 0, 0) 2px;
+                }
+                div {
+                    label {
+                        font-family: 'Cormorant SC', serif;
+                        font-weight: bold;
+                        font-size: x-large;
+                        text-decoration: underline solid rgb(0, 0, 0) 3px;
+                        margin-bottom: 10px;
+                        margin-top: 20px;
+                    }
+                    input {
+                        margin-bottom: 10px;
+                        margin-top: 20px;
+                        font-size: x-large;
+                        border: solid 3px rgb(0, 0, 0);
+                    }
+                }
+                .send {
+                    background-color: rgb(243, 92, 4);
+                    margin-top: 30px;
+                    margin-bottom: 350px;
                     font-size: x-large;
-                    border: solid 3px rgb(0, 0, 0);
+                    font-weight: bolder;
+                    border-radius: 25%;
+                    border: solid rgb(0, 0, 0);
+                    width: 100px;
                 }
             }
-            .send {
-                margin-top: 30px;
-                margin-bottom: 350px;
-                font-size: x-large;
-                border: solid 3px rgb(29, 29, 29);
-            }
+            
         }
     }
 }

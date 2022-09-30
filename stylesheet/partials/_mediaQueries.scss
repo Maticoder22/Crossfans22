@@ -1,50 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 @media screen and (max-width: 390px) and (orientation: portrait) {
-    #grillaDos {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "header header header"
-        "section section section"
-        "h2 h2 h2"
-        "hileraImagenes hileraImagenes hileraImagenes"
-        "article article article"
-        "footer footer footer";
-    }
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: 25px;
-    }
-    .logo {
-        width: 90px;
-    }
-    .cabecera {
-        font-size: 35px;
-    }
-    .enlaces {
-        font-size: 14px;
-    }
-    .titulo {
-        text-align: center;
-        font-size: 25px;
-    }
-    .tituloDos {
-        font-size: 30px;
-    }
-    .crossUno {
-    width: 350px;
-    margin-left: 10px;
-    }
-    .crossDos {
-    margin-left: 10px;
-    }  
-    .crossTres {
-    margin-left: 10px;
-    width: 350px;
+    #grillaDos{
+        .hileraImagenes{
+            .crossUno {
+                margin-left: 5px;
+                width: 10px;
+            }
+        }
     }
     #grilla {
         grid-template-columns: 1fr;
@@ -54,11 +15,173 @@
         "p p"
         "aside aside"
         "footer footer";}
-    p {
+        header {
+            .cabecera {
+                font-size: 4rem;
+            }
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    .link {
+                        margin-left: 0px;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+
+        p {
             text-align: left;
             line-height: normal;
         }
-    .imagenPortada{
+        .imagenPortada{
         display: none;
-    }  
+    } 
+    #mediaAthletes {
+        .columnaVideos {
+            display: flex;
+            flex-direction: column;
+            .primeraFilaVideos {
+                display: flex;
+                flex-direction: column;
+                .primerVideo {
+                    .atletasUno {
+                        font-family: 'Cormorant SC', serif;
+                        font-weight: bold;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 17px;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        text-decoration: underline solid rgb(0, 0, 0) 3px;
+                    }
+                    .videoAtletaUno {
+                        margin-left: 5px;
+                        border: 5px solid rgb(0, 0, 0);
+                        margin-bottom: 100px;
+                        width: 380px;
+                        height: 315px;
+                    }
+                }
+                .segundoVideo {
+                    .atletasDos {
+                        font-family: 'Cormorant SC', serif;
+                        font-weight: bold;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 17px;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        text-decoration: underline solid rgb(0, 0, 0) 3px;
+                    }
+                    .videoAtletaDos {
+                        margin-left: 5px;
+                        border: 5px solid rgb(0, 0, 0);
+                        margin-bottom: 100px;
+                        width: 380px;
+                        height: 315px;
+                    }
+                }
+            }
+            .segundaFilaVideos {
+                display: flex;
+                flex-direction: column;
+                .tercerVideo {
+                    .atletasUno {
+                        font-family: 'Cormorant SC', serif;
+                        font-weight: bold;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 17px;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        text-decoration: underline solid rgb(0, 0, 0) 3px;
+                    }
+                    .videoAtletaUno {
+                        margin-left: 5px;
+                        border: 5px solid rgb(0, 0, 0);
+                        margin-bottom: 100px;
+                        width: 380px;
+                        height: 315px;
+                    }
+                }
+                .cuartoVideo {
+                    .atletasDos {
+                        font-family: 'Cormorant SC', serif;
+                        font-weight: bold;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 17px;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        text-decoration: underline solid rgb(0, 0, 0) 3px;
+                    }
+                    .videoAtletaDos{
+                        margin-left: 5px;
+                        border: 5px solid rgb(0, 0, 0);
+                        margin-bottom: 100px;
+                        width: 380px;
+                        height: 315px;
+                    }
+                }
+            }
+        }
+    } 
+    #mediaMerchandising {
+        .mainMerchandising {
+            .seccionRemeras {
+                .remerasUno {
+                    border: 5px solid rgb(0, 0, 0);
+                    margin-bottom: 50px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    width: 340px;
+                }
+                .remerasDos {
+                    border: 5px solid rgb(0, 0, 0);
+                    margin-bottom: 50px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    width: 340px;
+                }
+                .remerasTres {
+                    border: 5px solid rgb(0, 0, 0);
+                    margin-bottom: 50px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    width: 340px;
+                }
+            }
+            .seccionShort {
+                .shortUno {
+                    border: 5px solid rgb(0, 0, 0);
+                    margin-bottom: 50px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    width: 340px;
+                }
+                .shortDos {
+                    border: 5px solid rgb(0, 0, 0);
+                    margin-bottom: 50px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    width: 340px;
+                }
+            }
+            .seccionAccesorio {
+                .accesorios {
+                    border: 5px solid rgb(0, 0, 0);
+                    margin-bottom: 100px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    width: 340px;
+                }
+            }
+        }
+    }
 }
